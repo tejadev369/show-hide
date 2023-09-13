@@ -1,0 +1,51 @@
+/* Write your CSS here */
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #fc63a7, #fa7257);
+  height: 100vh;
+}
+.header {
+  text-align: center;
+  color: #fff;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button {
+  padding: 10px;
+  margin-right: 89px;
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #dd1264;
+  font-weight: 700;
+  cursor: pointer;
+}
+.f-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 7px;
+  margin-right: 80px;
+}
+.l-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 7px;
+}
